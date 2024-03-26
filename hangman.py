@@ -32,8 +32,8 @@ while(chances>0 and win==False):
             if curr==str:
                 win=True
 if win==True:
-    print("Correct Guess: ", "".join(ans))
-    print("Congratulations on winning the game.")
+    print("Correct Guess:",str)
+    print("CONGRATULATIONS ON WINNING THE GAME.")
 else:
     print("The correct answer is {}.".format(str))
-    print("Better luck next time.")
+    print("BETTER LUCK NEXT TIME.")
